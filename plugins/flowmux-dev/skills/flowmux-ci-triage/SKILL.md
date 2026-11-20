@@ -36,7 +36,7 @@ gh run view RUN_ID --log-failed
 gh run download RUN_ID --pattern '*-test-evidence-*'
 ```
 
-The Tests workflow runs on pull requests and on pushes to `main`; a push to
+The Test workflow runs on pull requests and on pushes to `main`; a push to
 `main` that only touches `README.md` or `docs/` (other than `docs/legal/`)
 does not start it. A branch without a pull request needs a manual run:
 

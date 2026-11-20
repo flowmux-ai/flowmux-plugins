@@ -15,7 +15,7 @@ the tag by hand.
 ## Before the bump
 
 - Work on `main` with a clean tree.
-- The Tests workflow must be green for the commit being released
+- The Test workflow must be green for the commit being released
   (`gh run list --branch main --workflow test.yml --limit 3`).
 - List what changed: `git log vPREV..HEAD --oneline`.
 
