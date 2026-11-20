@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "flowmux-plugins",
+  "description": "Development plugins for working on Flowmux.",
+  "owner": {
+    "name": "flowmux-ai",
+    "url": "https://github.com/flowmux-ai"
+  },
+  "plugins": [
+    {
+      "name": "flowmux-dev",
+      "description": "Live verification, CI triage and release procedures for the Flowmux repository.",
+      "source": "./plugins/flowmux-dev",
+      "category": "development"
+    }
+  ]
+}

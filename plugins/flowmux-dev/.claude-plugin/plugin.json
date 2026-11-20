@@ -1,0 +1,11 @@
+{
+  "name": "flowmux-dev",
+  "version": "0.1.0",
+  "description": "Live verification, CI triage and release procedures for the Flowmux repository.",
+  "author": {
+    "name": "flowmux-ai",
+    "url": "https://github.com/flowmux-ai"
+  },
+  "repository": "https://github.com/flowmux-ai/flowmux-plugins",
+  "license": "GPL-3.0-or-later"
+}
